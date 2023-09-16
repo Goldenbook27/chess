@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#gameboard { 
+    width : 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.square{
+    height: 40px;
+    width: 40px;
+    
+
+}
+.square svg{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+ }
+
+.beige{
+   background-color: rgb(228, 210, 175);
+}
+
+.brown{
+    background-color: rgb(138, 115, 43);
+}
+.white{
+    fill: aliceblue;
+    
+}
+.black{
+    fill: black;
+}
+.piece svg{
+    border-color: black;
+}
